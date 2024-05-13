@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <h1>Exercício 1</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quia natus quo ea esse cum consequatur doloremque, ab rem possimus, obcaecati facilis, nobis ipsum voluptate quisquam illum? Voluptas, officia eveniet!</p>
+
+    <div class="container">
+        <img src="vaquinha.jpeg" alt="vaquinha">
+    </div>
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> 
+        <strong>Interaja...</strong>
+    </div>
+
+    <script>
+        
+        var area = window.document.getElementById('area')
+
+        function clicar() {
+            area.innerText = "Clicou!"
+            area.style.background = "red"
+        }
+        function entrar() {
+            area.innerText = "Entrou!" 
+        }
+        function sair() {
+            area.innerText = "Saiu!"
+            area.style.background = "green"
+        }
+    </script>
+</body>
+</html>

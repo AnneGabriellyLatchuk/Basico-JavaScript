@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiros passos em DOM</title>
+</head>
+<body>
+    <h1>Iniciando estudos em DOM</h1>
+
+    <h2>Document Object MOdel</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia libero impedit deleniti. Cumque itaque cupiditate accusamus beatae asperiores minima, laboriosam neque eius alias debitis provident, iste rerum ea soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur voluptatum quasi, optio repellat doloribus reprehenderit voluptas deleniti nulla ipsam similique maxime repellendus provident molestiae quo quis sint in? Vel.</p>
+
+    <p>Vocẽ perdeu! Tente novamente</p>
+
+    <p>Você ganhou!</p>
+
+    <div class="container">
+        <img src="vaquinha.jpeg" alt="vaquinha">
+    </div>
+
+    <div id="msg"> <strong>Clique em mim</strong> </div>
+
+
+    <script>
+         /*var corpo = window.document.body
+         var p1 = window.document.getElementsByTagName('p')[0];
+    
+        document.write(p1.innerHTML)
+
+        var d = window.document.getElementById('msg')
+        d.style.background = "yellow"
+
+        var a = window.document.getElementsByName('msg')[0]
+        d.innerText = "Olá"*/
+
+        var b = window.document.querySelector('div#msg')
+        b.style.color = 'pink'
+    </script>
+</body>
+</html>
